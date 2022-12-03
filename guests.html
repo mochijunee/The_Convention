@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Convention</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+</head>
+  <body onload="initialize();">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="#">GUESTS</a></li>
+      <li><a href="events.html">EVENTS</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+    <main>
+      <div class="header">
+        <h1>Seneca Falls Convention</h1>
+        <p id="message"></p>
+        <h2>SPECIAL GUESTS</h2>
+      </div>
+      <div class="guestsInfo">
+        <p id="summary">Special guests: Frederick Douglass and Henry Brewster Stanton</p>
+        <br>
+        <br>
+        <br>
+        <div class="douglass">
+          <img id="douglassPic" src="assets/douglassPic.jpeg" alt="Picture of Frederick Douglass" width="500" height="600">
+          <div class="text">
+            <h4>Frederick Douglass</h4>
+            <button onclick="displayDouglassBio();">Read About Douglass</button>
+            <p id="douglassBio">Douglass is a prominent abolitionist and social reformer. Have a chance to meet and discuss with him on July 20th, the second day of the convention.</p>
+          </div>
+        </div>
+        <div class="henry">
+          <div class="text">
+            <h4>Henry Brewster Stanton</h4>
+            <button onclick="displayStantonBio();">Read About Stanton</button>
+            <p id="stantonBio">Husband of Elizabeth Cady Stanton, Henry Brewster Stanton is also an activist. Meet and discuss with him on July 20th, the second day of the convention!</p>
+          </div>
+          <img id="henryPic" src="assets/henryPic.jpeg" alt="Picture of Henry Brewster Stanton" width="500" height="600">
+        </div>
+    </main>
+    <!-- JS -->
+    <script>
+      function initialize() {
+        douglassText = document.getElementById("douglassBio");
+        stantonText = document.getElementById("stantonBio");
+        fore = "white";
+        back = "black";
+      }
+      function displayDouglassBio() {
+        var tmp = fore;
+        fore = back;
+        back = tmp;
+        douglassText.style.color = fore;
+      }
+      function displayStantonBio() {
+        var tmp = fore;
+        fore = back;
+        back = tmp;
+        stantonText.style.color = fore;
+      }
+    </script>
+  </body>
+</html>
