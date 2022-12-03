@@ -9,26 +9,9 @@ hope this isn’t your last job.
 ### Display
 ● The Convention needs a splash page, something that will really draw in the visitors.
 
-o Show the highlights of the Convention.
-
-o Create a link to a guests page.
-
-o Create a link to an events page.
-
-o The content of the Convention is up to you. Choose something you like and
-build the Convention around that.
-
 ● The Convention will need a guests page.
 
-o Each featured guest should have a large section near the top with a bio and
-times the guest will be speaking or meeting fans.
-
-o Secondary guests can be listed afterwards with a shorter bio and their booth
-numbers.
-
 ● The Convention will need an events page.
-
-o Create a schedule of events for visitors to view.
 
 ### Enhancements
 Allow the user to register for events. When the user goes into the events page, they
